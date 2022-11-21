@@ -10,6 +10,6 @@ apt-get install apache2 unzip -y
 cd /tmp
 wget https://github.com/vsblemos/todo-list/archive/refs/heads/main.zip
 unzip main.zip
-cd todo-list
+cd todo-list-main
 cp -R * /var/www/html/
 
